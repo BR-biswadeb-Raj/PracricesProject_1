@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+li{
+list-style: none;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+
+    background: #2dc8b6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#07f5e9, #09f5f500, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(120deg, #37c6df, #b0bef1, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: center;
+    background-size: cover;
+ 
+    
+}
+i {
+    color:red;
+    z-index: 2;
+    opacity: 1;
+}
+
+nav{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+  
+}
+link{
+    font-size: 1rem;
+    background-color: black;
+    color: black;
+
+
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.navbar li{
+    margin: 0 10px;
+}
+
+.navbar li a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+#line{
+    color: black;
+}
+main{
+   width: 90%;
+   height: auto;
+   display: flex;
+   margin: auto;
+   justify-content: space-between;
+   margin-top: 2%;
+
+}
+.right_part p{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.right_part h1{
+    font-size: 4rem;
+    text-align: left;
+    font-weight: bold;
+}
+.right_part h2{
+    font-size: 4rem;
+    font-weight: bolder;
+    color:var(-webkit-linear-gradient rgb(73, 68, 83)) ;
+}
+.right_part a{
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+.para{
+   
+    
+   
+}
+.para p{
+    
+    width: 5px;
+    word-wrap: break-word;
+    
+}
+article{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer span{
+    font-size: 16px;
+    color: black;
+}
+.footer p{
+    font-size: 16px;
+    color: black;
+  
+    
+}
+.item{
+    margin-right: 8rem;
+}
+.ten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.ten h1{
+    font-size: 4rem;
+    border-bottom: 3px solid black;
+    padding-right: 1rem;
+}
+.ten12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ten12 h1{
+    font-size: 4rem;
+    border-bottom: 3px solid black;
+    padding-right: 1rem;
+}
+.text{
+    font-size: 18px;
+    color: black;
+    padding-left: 1rem;
+}
+.text2{
+    font-size: 18px;
+    color: black;
+    padding-left: 1rem;
+
+}
